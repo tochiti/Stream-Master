@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="tochi.learning.streammaster.fragments.Home"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/subscriptions"
+        android:name="tochi.learning.streammaster.fragments.Subscriptions"
+        android:label="@string/subscriptions"
+        tools:layout="@layout/fragment_subscriptions" />
+
+    <fragment
+        android:id="@+id/addSubscriptions"
+        android:name="tochi.learning.streammaster.fragments.AddSubscriptions"
+        android:label="Add Subscription"
+        tools:layout="@layout/fragment_add_subscriptions" />
+
+    <fragment
+        android:id="@+id/watchlist"
+        android:name="tochi.learning.streammaster.fragments.Watchlist"
+        android:label="@string/watchlist"
+        tools:layout="@layout/fragment_watchlist" />
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="tochi.learning.streammaster.fragments.Settings"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

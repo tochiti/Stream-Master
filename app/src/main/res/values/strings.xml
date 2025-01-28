@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">StreamMaster</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_onboarding_1">Welcome to Onboarding App !</string>
+    <string name="description_onboarding_1">Here is an open-source project which shows sweet &amp; original onboarding ViewPagers that follows Material Design Guidelines</string>
+
+    <string name="title_onboarding_2">Try AirBnB Lottie</string>
+    <string name="description_onboarding_2">We use Lottie Animations on our Intro to make it interactive &amp; pleasant. Did you already tried it ? If no, let\'s start now. It\'s just awesome</string>
+
+    <string name="title_onboarding_3">Code beautiful apps</string>
+    <string name="description_onboarding_3">Our mission is to make useful &amp; subtle apps. We love help people to save time with open-source stuffs, but we also make life easier by creating new things. Good Coding!</string>
+
+    <string name="start_text_advice">By continuing on this application you agree to our Terms of Use and Privacy Policy</string>
+
+    <string name="start">start</string>
+    <string name="skip">Skip</string>
+    <string name="finish">finish</string>
+    <string name="next">next</string>
+    <string name="back">back</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="heading_register_page">Let\'s Get Started</string>
+    <string name="stream_master">Stream Master</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="home">Home</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="log_in">Log In</string>
+    <string name="logo">logo</string>
+    <string name="add_movie_to_watchlist">Add Movie to Watchlist</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="submit_feedback">Submit Feedback</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="logout">Logout</string>
+    <string name="ongoing_nfree_trials">Ongoing \nFree Trials</string>
+    <string name="payments_n_this_week">Payments \n This Week</string>
+    <string name="total_nsubscriptions">Total \nSubscriptions</string>
+    <string name="movies">Movies</string>
+    <string name="streaming_platforms">Streaming Platforms</string>
+    <string name="stream_categories">Stream Categories</string>
+    <string name="dashboard">Dashboard</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="toggle_button">Toggle Button</string>
+    <string name="drawer">drawer</string>
+    <string name="add_stream_category">Add Stream Category</string>
+    <string name="add_category">Add Category</string>
+    <string name="stream_category_name">Stream Category Name</string>
+    <string name="stream_category_description">Stream Category Description</string>
+    <string name="plan_name">Add Streaming Plan</string>
+    <string name="plan_duration">Add Streaming Plan Duration</string>
+    <string name="plan_price">Add Streaming Plan Price</string>
+    <string name="forward_icon">Forward Icon</string>
+    <string name="add_movie">Add Movie</string>
+    <string name="update_movie">Update Movie</string>
+    <string name="delete_movie">Delete Movie</string>
+    <string name="manage_movies">Manage Movies</string>
+    <string name="movie_manager">Movie Manager</string>
+    <string name="movie_icon">Movie Icon</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="movie_description">Movie Description</string>
+    <string name="view_all">View All</string>
+    <string name="delete">Delete</string>
+    <string name="movie_image">Movie Images</string>
+    <string name="filter_button">Filter Button</string>
+    <string name="add_subscriptions">Add Subscriptions</string>
+    <string name="plus_button">+</string>
+    <string name="filter">Filter</string>
+</resources>

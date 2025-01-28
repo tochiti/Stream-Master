@@ -1,0 +1,45 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.StreamingPlatforms"
+    android:layout_marginTop="20dp"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewPlatforms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+            <!-- Add your scrollable content here -->
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addStreamingPlatform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="20dp"
+        app:tint="@color/box"
+        android:backgroundTint="@color/purple_500"
+        android:layout_marginEnd="20dp"
+        app:srcCompat="@drawable/baseline_add_24"
+        app:layout_anchor="@id/nested_scroll_view"
+        app:layout_anchorGravity="bottom|end"
+        android:contentDescription="@string/add_stream_category" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

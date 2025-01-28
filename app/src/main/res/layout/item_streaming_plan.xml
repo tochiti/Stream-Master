@@ -1,0 +1,49 @@
+<!-- item_streaming_plan.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_background"
+    android:backgroundTint="@color/box"
+    android:weightSum="4"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textPlanName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical"
+        android:gravity="start"
+        android:textColor="@color/textHeading" />
+
+<LinearLayout
+    android:layout_gravity="end"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/textPlanPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical"
+        android:gravity="end"
+        android:textColor="@color/textSub" />
+
+    <TextView
+        android:id="@+id/textPlanDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical"
+        android:gravity="end"
+        android:textColor="@color/textSub" />
+</LinearLayout>
+
+</LinearLayout>

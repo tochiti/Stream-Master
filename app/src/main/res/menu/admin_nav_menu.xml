@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Dashboard"
+
+            android:icon="@drawable/admin_home_icon"
+            android:title="@string/dashboard" />
+
+        <item
+            android:id="@+id/streamCategories"
+            android:icon="@drawable/streaming_categories_icon"
+            android:title="@string/stream_categories" />
+        <item
+            android:id="@+id/streamingPlatforms"
+            android:icon="@drawable/streaming_platforms_icon"
+            android:title="@string/streaming_platforms" />
+        <item
+            android:id="@+id/Movies"
+            android:icon="@drawable/movies_icon"
+            android:title="@string/movies" />
+        <item
+            android:id="@+id/adminSettings"
+            android:icon="@drawable/settings_icon"
+            android:title="@string/settings" />
+    </group>
+    <item
+        android:id="@+id/adminLogout"
+        android:icon="@drawable/logout"
+        android:title="@string/logout" />
+</menu>

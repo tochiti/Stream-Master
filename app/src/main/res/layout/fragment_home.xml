@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".fragments.Home"
+    android:padding="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text=""
+        android:textColor="@color/textHeading"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/totalSubscriptionsAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="50sp"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/purple_500"
+        android:text="$0.00"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_background">
+
+        <TextView
+            android:id="@+id/totalSubscriptions"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:textColor="@color/textHeading"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textSub"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:text="@string/total_nsubscriptions"
+            android:textAlignment="center"
+            android:textSize="15sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_background">
+
+        <TextView
+            android:id="@+id/paymentsDueThisWeek"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:textColor="@color/textHeading"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:text="@string/payments_n_this_week"
+            android:textColor="@color/textSub"
+            android:textAlignment="center"
+            android:textSize="15sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_background">
+
+        <TextView
+            android:id="@+id/ongoingFreeTrials"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:textColor="@color/textHeading"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="40sp"/>
+
+            <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:text="@string/ongoing_nfree_trials"
+            android:textColor="@color/textSub"
+            android:textAlignment="center"
+            android:textSize="15sp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textColor="@color/textHeading"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:text="Upcoming"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:textColor="@color/textHeading"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:text="View All"/>
+
+
+
+</LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textColor="@color/textHeading"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:text="Subscriptions"/>
+
+
+
+</LinearLayout>

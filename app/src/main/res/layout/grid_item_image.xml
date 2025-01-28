@@ -1,0 +1,28 @@
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:elevation="20dp"
+        android:id="@+id/selectedRing"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/selected_placeholder"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/movie_icon" />
+
+    <!-- Selected ring drawable, initially hidden -->
+
+</LinearLayout>

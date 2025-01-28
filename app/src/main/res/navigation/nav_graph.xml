@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/addStreamCategory">
+
+
+    <dialog
+        android:id="@+id/addStreamCategory"
+        android:name="tochi.learning.streammaster.fragments.AddStreamCategoryManager"
+        android:label="fragment_add_stream_category"
+        tools:layout="@layout/fragment_add_stream_category" >
+        <action
+            android:id="@+id/action_addStreamCategory_to_addStreamCategoryForm"
+            app:destination="@id/addStreamCategoryForm" />
+        <action
+            android:id="@+id/action_addStreamCategory_to_updateStreamCategoryForm"
+            app:destination="@id/updateStreamCategoryForm" />
+        <action
+            android:id="@+id/action_addStreamCategory_to_deleteStreamCategory2"
+            app:destination="@id/deleteStreamCategory2" />
+    </dialog>
+    <fragment
+        android:id="@+id/addStreamCategoryForm"
+        android:name="tochi.learning.streammaster.fragments.AddStreamCategory"
+        android:label="fragment_add_stream_category_form"
+        tools:layout="@layout/fragment_add_stream_category_form" />
+    <fragment
+        android:id="@+id/updateStreamCategoryForm"
+        android:name="tochi.learning.streammaster.fragments.UpdateStreamCategory"
+        android:label="fragment_update_stream_category_form"
+        tools:layout="@layout/fragment_update_stream_category_form" />
+    <fragment
+        android:id="@+id/deleteStreamCategory2"
+        android:name="tochi.learning.streammaster.fragments.DeleteStreamCategory"
+        android:label="fragment_delete_stream_category"
+        tools:layout="@layout/fragment_delete_stream_category" />
+</navigation>

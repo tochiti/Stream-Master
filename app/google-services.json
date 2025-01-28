@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "258118052375",
+    "project_id": "streammaster-2fe85",
+    "storage_bucket": "streammaster-2fe85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258118052375:android:dc3fe29a8bb24c358d0a52",
+        "android_client_info": {
+          "package_name": "tochi.learning.streammaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258118052375-vliei6d7fbbilpl0lj879gke4sb23lc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWj1ezakSLOAqIG5V9m9K6s9Aht4Wf81Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258118052375-vliei6d7fbbilpl0lj879gke4sb23lc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

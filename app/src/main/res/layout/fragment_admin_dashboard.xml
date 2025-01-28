@@ -1,0 +1,204 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="10dp"
+    android:weightSum="3"
+    android:orientation="vertical"
+    tools:context=".fragments.AdminDashboard"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:layout_weight="1">
+    <!-- Stream Categories Section -->
+    <RelativeLayout
+        android:id="@+id/streamCategoriesLayout"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_background"
+        android:backgroundTint="@color/box"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textStreamCategories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stream_categories"
+            android:textColor="@color/textHeading"
+            android:textSize="20sp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true" />
+
+        <!-- "View All" TextView with forward icon (you can use an ImageButton) -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewViewAllCategories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/view_all"
+                android:textColor="@color/textSub"
+                android:paddingEnd="8dp" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/forward"
+                android:contentDescription="@string/forward_icon" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- Horizontal Scrollable Images for Stream Categories -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewStreamCategories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"/>
+
+</LinearLayout>
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1">
+        <!-- Stream Provider Section -->
+        <RelativeLayout
+            android:id="@+id/streamProviderLayout"
+            android:layout_width="match_parent"
+            android:background="@drawable/rounded_background"
+            android:backgroundTint="@color/box"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textStreamProvider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/streaming_platforms"
+                android:textColor="@color/textHeading"
+                android:textSize="20sp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true" />
+
+            <!-- "View All" TextView with forward icon -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewViewAllProviders"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textSub"
+                    android:text="@string/view_all"
+                    android:paddingEnd="8dp" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/forward"
+                    android:contentDescription="@string/forward_icon" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!-- Horizontal Scrollable Images for Stream Providers -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewStreamProviders"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"/>
+
+
+    </LinearLayout>
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1">
+
+        <!-- Movies Section -->
+        <RelativeLayout
+            android:id="@+id/moviesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_background"
+            android:backgroundTint="@color/box"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textMovies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movies"
+                android:textColor="@color/textHeading"
+                android:textSize="18sp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true" />
+
+            <!-- "View All" TextView with forward icon -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewViewAllMovies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_all"
+                    android:textColor="@color/textSub"
+                    android:paddingEnd="8dp" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/forward"
+                    android:contentDescription="@string/forward_icon" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!-- Horizontal Scrollable Images for Movies -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewMovies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
